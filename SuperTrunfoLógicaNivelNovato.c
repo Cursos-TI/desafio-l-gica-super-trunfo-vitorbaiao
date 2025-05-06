@@ -20,7 +20,7 @@ int main() {
     scanf("%s", codigo1);
 
     printf("Nome da Cidade: ");
-    scanf("%s", nomeCidade1);
+    scanf(" %s", nomeCidade1);
 
     printf("População: ");
     scanf("%lu", &populacao1);
